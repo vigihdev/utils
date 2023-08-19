@@ -1,0 +1,21 @@
+{
+    "name": "vigihdev/utils",
+    "authors": [
+        {
+            "name": "Vigihdev",
+            "email": "vigihdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "process-timeout": 0
+    },
+    "autoload": {
+        "psr-4": {
+            "vigihdev\\utils\\": "src"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8787 ./server.php"
+    }
+}
