@@ -30,7 +30,6 @@ class ArrayHelper
                 $result[$key] = $value;
             }
         }
-
         return $result;
     }
 
